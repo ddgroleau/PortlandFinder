@@ -29,6 +29,5 @@ namespace Api.Controllers
             return Ok(locations);
         }
        
-
     }
 }
