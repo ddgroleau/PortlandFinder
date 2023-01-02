@@ -1,0 +1,17 @@
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\bin\Debug\net7.0\Domain.dll
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\bin\Debug\net7.0\Domain.pdb
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
+C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
