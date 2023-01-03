@@ -33,10 +33,10 @@ namespace Application.Services
             {
                 double distance = GetDistanceBetweenCoordinates(originLat,originLon,location.Latitude,location.Longitude);
                 location.DirectionsUri = $"{DIRECTIONS_BASE_URI}/{originLat},{originLon}/{location.Latitude},{location.Longitude}";
-                location.Distance = distance;
+                location.Distance = Math.Round(distance,2);
             }
 
-            return allLocations.Where(location => location.Distance <= radius).ToList();
+            return allLocations.Where(location => location.Distance <= radius).OrderBy(location => location.Distance).ToList();
         }
 
         private double GetDistanceBetweenCoordinates(double originLat, double originLon, double destLat, double destLon)

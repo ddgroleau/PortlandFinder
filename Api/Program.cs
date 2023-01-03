@@ -4,6 +4,20 @@ using Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+string origins = "_origins";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: origins,
+                      policy  =>
+                      {
+                          policy
+                          .AllowAnyHeader()
+                          .AllowAnyMethod()
+                          .AllowAnyOrigin();
+                      });
+});
+
 builder.Services.AddDbContext<AppDbContext>();
 builder.Services.AddScoped<ILocationService, LocationService>();
 builder.Services.AddScoped<ILocationRepository, LocationRepository>();
@@ -23,6 +37,8 @@ var app = builder.Build();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseCors(origins);
 
 app.MapControllers();
 

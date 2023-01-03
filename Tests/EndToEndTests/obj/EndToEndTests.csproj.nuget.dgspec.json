@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/EndToEndTests.csproj": {}
+    "c:\\users\\ddgro\\source\\repos\\PortlandFinder\\Tests\\EndToEndTests\\EndToEndTests.csproj": {}
   },
   "projects": {
-    "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/EndToEndTests.csproj": {
+    "c:\\users\\ddgro\\source\\repos\\PortlandFinder\\Tests\\EndToEndTests\\EndToEndTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/EndToEndTests.csproj",
+        "projectUniqueName": "c:\\users\\ddgro\\source\\repos\\PortlandFinder\\Tests\\EndToEndTests\\EndToEndTests.csproj",
         "projectName": "EndToEndTests",
-        "projectPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/EndToEndTests.csproj",
-        "packagesPath": "/home/ddgroleau/.nuget/packages/",
-        "outputPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/obj/",
+        "projectPath": "c:\\users\\ddgro\\source\\repos\\PortlandFinder\\Tests\\EndToEndTests\\EndToEndTests.csproj",
+        "packagesPath": "C:\\Users\\ddgro\\.nuget\\packages\\",
+        "outputPath": "c:\\users\\ddgro\\source\\repos\\PortlandFinder\\Tests\\EndToEndTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/ddgroleau/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ddgro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
