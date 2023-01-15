@@ -3961,11 +3961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/IntegrationTests/IntegrationTests.csproj",
+      "projectUniqueName": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Tests/IntegrationTests/IntegrationTests.csproj",
       "projectName": "IntegrationTests",
-      "projectPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/IntegrationTests/IntegrationTests.csproj",
+      "projectPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Tests/IntegrationTests/IntegrationTests.csproj",
       "packagesPath": "/home/ddgroleau/.nuget/packages/",
-      "outputPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/IntegrationTests/obj/",
+      "outputPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Tests/IntegrationTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ddgroleau/.nuget/NuGet/NuGet.Config"

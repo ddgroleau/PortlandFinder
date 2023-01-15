@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj",
+      "projectUniqueName": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj",
+      "projectPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj",
       "packagesPath": "/home/ddgroleau/.nuget/packages/",
-      "outputPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Domain/obj/",
+      "outputPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ddgroleau/.nuget/NuGet/NuGet.Config"

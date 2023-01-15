@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6tLQIfGMx4ItElm6ZbZWcCdABqmfftm1JtKj5+psrnGRFIc4MFrcfAF7eaz35DNi0dZuPZHA3NEl3xjQ2QO2KA==",
+  "dgSpecHash": "/ln18ecKNYbPiYfgtasgfiqyZZX2AOfPTs6ayJibaBLrlbhDUCBxcuPMSJQs2Wt4e6XPxJhFJ4EijkNuXpiQ4Q==",
   "success": true,
-  "projectFilePath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/ddgroleau/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/ddgroleau/.nuget/packages/microsoft.data.sqlite.core/7.0.1/microsoft.data.sqlite.core.7.0.1.nupkg.sha512",

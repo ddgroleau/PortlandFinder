@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/users/ddgro/source/repos/PortlandFinder/Api/Api.csproj": {}
+    "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Api/Api.csproj": {}
   },
   "projects": {
-    "/mnt/c/users/ddgro/source/repos/PortlandFinder/Api/Api.csproj": {
+    "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Api/Api.csproj",
+        "projectUniqueName": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Api/Api.csproj",
+        "projectPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Api/Api.csproj",
         "packagesPath": "/home/ddgroleau/.nuget/packages/",
-        "outputPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Api/obj/",
+        "outputPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ddgroleau/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Application/Application.csproj": {
-                "projectPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Application/Application.csproj"
+              "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Application/Application.csproj": {
+                "projectPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Application/Application.csproj"
               },
-              "/mnt/c/users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj"
+              "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Application/Application.csproj": {
+    "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Application/Application.csproj",
+        "projectUniqueName": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Application/Application.csproj",
+        "projectPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Application/Application.csproj",
         "packagesPath": "/home/ddgroleau/.nuget/packages/",
-        "outputPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Application/obj/",
+        "outputPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ddgroleau/.nuget/NuGet/NuGet.Config"
@@ -117,11 +117,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj": {
-                "projectPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj"
+              "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj": {
+                "projectPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj"
               },
-              "/mnt/c/users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj"
+              "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -155,14 +155,14 @@
         }
       }
     },
-    "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj": {
+    "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj",
+        "projectUniqueName": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj",
+        "projectPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj",
         "packagesPath": "/home/ddgroleau/.nuget/packages/",
-        "outputPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Domain/obj/",
+        "outputPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ddgroleau/.nuget/NuGet/NuGet.Config"
@@ -208,14 +208,14 @@
         }
       }
     },
-    "/mnt/c/users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj": {
+    "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/home/ddgroleau/.nuget/packages/",
-        "outputPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Infrastructure/obj/",
+        "outputPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ddgroleau/.nuget/NuGet/NuGet.Config"
@@ -230,8 +230,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj": {
-                "projectPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj"
+              "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj": {
+                "projectPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj"
               }
             }
           }

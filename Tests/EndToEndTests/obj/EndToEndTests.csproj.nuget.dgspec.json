@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/EndToEndTests.csproj": {}
+    "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/EndToEndTests.csproj": {}
   },
   "projects": {
-    "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/EndToEndTests.csproj": {
+    "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/EndToEndTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/EndToEndTests.csproj",
+        "projectUniqueName": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/EndToEndTests.csproj",
         "projectName": "EndToEndTests",
-        "projectPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/EndToEndTests.csproj",
+        "projectPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/EndToEndTests.csproj",
         "packagesPath": "/home/ddgroleau/.nuget/packages/",
-        "outputPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/obj/",
+        "outputPath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Tests/EndToEndTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ddgroleau/.nuget/NuGet/NuGet.Config"
