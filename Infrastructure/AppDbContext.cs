@@ -19,7 +19,7 @@ namespace Infrastructure
         {
         }
 
-        public DbSet<Location> Locations { get; set; }
+        public DbSet<Location>? Locations { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -43,7 +43,13 @@ namespace Infrastructure
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlite($"DataSource=app.db");
-
+        {
+            string? host = Environment.GetEnvironmentVariable("PG_HOST");
+            string? port = Environment.GetEnvironmentVariable("PG_PORT");
+            string? user = Environment.GetEnvironmentVariable("PG_USER");
+            string? password = Environment.GetEnvironmentVariable("PG_PASSWORD");
+            string? db = Environment.GetEnvironmentVariable("PG_DATABASE");
+            options.UseNpgsql($"Host={host};Port={port};Username={user};Password={password};Database={db};");
+        }
     }
 }

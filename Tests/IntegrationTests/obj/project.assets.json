@@ -3956,34 +3956,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ddgro\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/home/ddgroleau/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\ddgro\\source\\repos\\PortlandFinder\\Tests\\IntegrationTests\\IntegrationTests.csproj",
+      "projectUniqueName": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/IntegrationTests/IntegrationTests.csproj",
       "projectName": "IntegrationTests",
-      "projectPath": "c:\\users\\ddgro\\source\\repos\\PortlandFinder\\Tests\\IntegrationTests\\IntegrationTests.csproj",
-      "packagesPath": "C:\\Users\\ddgro\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\ddgro\\source\\repos\\PortlandFinder\\Tests\\IntegrationTests\\obj\\",
+      "projectPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/IntegrationTests/IntegrationTests.csproj",
+      "packagesPath": "/home/ddgroleau/.nuget/packages/",
+      "outputPath": "/mnt/c/users/ddgro/source/repos/PortlandFinder/Tests/IntegrationTests/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ddgro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/ddgroleau/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4039,7 +4029,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
