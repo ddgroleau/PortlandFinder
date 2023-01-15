@@ -50,21 +50,22 @@ jobs:
           PG_USER: ${{ secrets.PG_USER }}
           PG_PASSWORD: ${{ secrets.PG_PASSWORD }}
           PG_DATABASE: ${{ secrets.PG_DATABASE }}
+          DOCKER_NETWORK: ${{ secrets.DOCKER_NETWORK }}
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER_NAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.PORT }} 
           passphrase: ${{ secrets.PASSPHRASE }}
-          envs: HOST_PORT,PG_HOST,PG_PORT,PG_USER,PG_PASSWORD,PG_DATABASE
+          envs: HOST_PORT,PG_HOST,PG_PORT,PG_USER,PG_PASSWORD,PG_DATABASE,DOCKER_NETWORK
           script: |
-            export envArray=( $HOST_PORT $PG_HOST $PG_PORT $PG_USER $PG_PASSWORD $PG_DATABASE ) \
+            export envArray=( $HOST_PORT $PG_HOST $PG_PORT $PG_USER $PG_PASSWORD $PG_DATABASE $DOCKER_NETWORK ) \
             && docker pull thoughtspring/portland-finder \
             && if [[ -z $(docker container ls -a | grep "portland-finder") ]]; \
             then echo "No container found. Starting portland-finder container..."; \
             else docker stop portland-finder && docker rm portland-finder; \
             fi \
-            && docker run -d -p "${envArray[0]}":80 --name portland-finder --restart always \
+            && docker run -d -p "${envArray[0]}":80 --network "${envArray[6]}" --name portland-finder --restart always \
             -e PG_HOST="${envArray[1]}" \
             -e PG_PORT="${envArray[2]}" \
             -e PG_USER="${envArray[3]}" \
