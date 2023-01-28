@@ -1,2 +1,4 @@
 *.db
 run.sh
+run-docker.sh
+.env

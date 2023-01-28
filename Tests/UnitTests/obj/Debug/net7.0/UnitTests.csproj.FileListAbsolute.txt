@@ -162,7 +162,6 @@ C:\Users\ddgro\source\repos\PortlandFinder\Tests\UnitTests\bin\Debug\net7.0\nuni
 C:\Users\ddgro\source\repos\PortlandFinder\Tests\UnitTests\bin\Debug\net7.0\nunit.engine.api.dll
 C:\Users\ddgro\source\repos\PortlandFinder\Tests\UnitTests\bin\Debug\net7.0\nunit.engine.core.dll
 C:\Users\ddgro\source\repos\PortlandFinder\Tests\UnitTests\bin\Debug\net7.0\testcentric.engine.metadata.dll
-C:\Users\ddgro\source\repos\PortlandFinder\Tests\UnitTests\bin\Debug\net7.0\bag-locations.json
 C:\Users\ddgro\source\repos\PortlandFinder\Tests\UnitTests\bin\Debug\net7.0\UnitTests.deps.json
 C:\Users\ddgro\source\repos\PortlandFinder\Tests\UnitTests\bin\Debug\net7.0\UnitTests.runtimeconfig.json
 C:\Users\ddgro\source\repos\PortlandFinder\Tests\UnitTests\bin\Debug\net7.0\UnitTests.dll

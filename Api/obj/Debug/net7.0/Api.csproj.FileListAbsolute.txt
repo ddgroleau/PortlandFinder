@@ -80,7 +80,6 @@
 C:\Users\ddgro\source\repos\PortlandFinder\Api\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\ddgro\source\repos\PortlandFinder\Api\bin\Debug\net7.0\appsettings.json
 C:\Users\ddgro\source\repos\PortlandFinder\Api\bin\Debug\net7.0\Api.exe
-C:\Users\ddgro\source\repos\PortlandFinder\Api\bin\Debug\net7.0\bag-locations.json
 C:\Users\ddgro\source\repos\PortlandFinder\Api\bin\Debug\net7.0\Api.deps.json
 C:\Users\ddgro\source\repos\PortlandFinder\Api\bin\Debug\net7.0\Api.runtimeconfig.json
 C:\Users\ddgro\source\repos\PortlandFinder\Api\bin\Debug\net7.0\Api.dll

@@ -16,7 +16,6 @@
 /mnt/c/users/ddgro/source/repos/PortlandFinder/Infrastructure/obj/Debug/net7.0/Infrastructure.pdb
 /mnt/c/users/ddgro/source/repos/PortlandFinder/Infrastructure/obj/Debug/net7.0/Infrastructure.genruntimeconfig.cache
 /mnt/c/users/ddgro/source/repos/PortlandFinder/Infrastructure/obj/Debug/net7.0/ref/Infrastructure.dll
-C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\bin\Debug\net7.0\bag-locations.json
 C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
 C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
 C:\Users\ddgro\source\repos\PortlandFinder\Infrastructure\bin\Debug\net7.0\Infrastructure.dll

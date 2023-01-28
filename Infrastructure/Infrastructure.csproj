@@ -21,10 +21,4 @@
     <ProjectReference Include="..\Core\Domain\Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Content Include="bag-locations.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
 </Project>

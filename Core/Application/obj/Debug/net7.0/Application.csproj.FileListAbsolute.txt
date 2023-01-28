@@ -16,7 +16,6 @@
 /mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Application/obj/Debug/net7.0/refint/Application.dll
 /mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Application/obj/Debug/net7.0/Application.pdb
 /mnt/c/users/ddgro/source/repos/PortlandFinder/Core/Application/obj/Debug/net7.0/ref/Application.dll
-C:\Users\ddgro\source\repos\PortlandFinder\Core\Application\bin\Debug\net7.0\bag-locations.json
 C:\Users\ddgro\source\repos\PortlandFinder\Core\Application\bin\Debug\net7.0\Application.deps.json
 C:\Users\ddgro\source\repos\PortlandFinder\Core\Application\bin\Debug\net7.0\Application.dll
 C:\Users\ddgro\source\repos\PortlandFinder\Core\Application\bin\Debug\net7.0\Application.pdb

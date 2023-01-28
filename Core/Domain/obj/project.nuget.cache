@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XadR6DBTD6X3RrxvDSgOwFY2clfl70i+qkmfD4L3CCKLgfCsXAur3w0F3xFNjvNXDSRtV1xLLEjYDKYvKLiaSQ==",
+  "dgSpecHash": "DumGzw5lMj0T2RHTLaI8QnY9eQ1yMEHA8C0WtV3YLZtb8akBKGD2ea1fBMgDf7AfNv0HVnkGhQfAX7BeGmBZjA==",
   "success": true,
-  "projectFilePath": "/mnt/c/Users/ddgro/source/repos/PortlandFinder/Core/Domain/Domain.csproj",
+  "projectFilePath": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
