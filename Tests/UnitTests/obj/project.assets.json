@@ -822,7 +822,7 @@
           "lib/netstandard1.3/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll": {}
         }
       },
-      "NSubstitute/4.4.0": {
+      "NSubstitute/5.0.0": {
         "type": "package",
         "dependencies": {
           "Castle.Core": "5.0.0"
@@ -3476,27 +3476,21 @@
         "npgsql.entityframeworkcore.postgresql.design.nuspec"
       ]
     },
-    "NSubstitute/4.4.0": {
-      "sha512": "aArWp0M9n/3IZHCNSb3QIHy0tkPLSft8l3KFeUa54GbznKiv0FE687TBfPhZbXf0/zGtc4EsHLEUqEEf0Bf4HQ==",
+    "NSubstitute/5.0.0": {
+      "sha512": "CWGy4oXvcJcZzL7m5Rr/eMSejFXMDq1RRMlsbL6eltS3AuN/d8GH3ZzUcuStQcCSlcx+hpsgTxdnb3lhozWG6w==",
       "type": "package",
-      "path": "nsubstitute/4.4.0",
+      "path": "nsubstitute/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "lib/net45/NSubstitute.dll",
-        "lib/net45/NSubstitute.xml",
-        "lib/net46/NSubstitute.dll",
-        "lib/net46/NSubstitute.xml",
-        "lib/net5.0/NSubstitute.dll",
-        "lib/net5.0/NSubstitute.xml",
+        "lib/net462/NSubstitute.dll",
+        "lib/net462/NSubstitute.xml",
         "lib/net6.0/NSubstitute.dll",
         "lib/net6.0/NSubstitute.xml",
-        "lib/netstandard1.3/NSubstitute.dll",
-        "lib/netstandard1.3/NSubstitute.xml",
         "lib/netstandard2.0/NSubstitute.dll",
         "lib/netstandard2.0/NSubstitute.xml",
-        "nsubstitute.4.4.0.nupkg.sha512",
+        "nsubstitute.5.0.0.nupkg.sha512",
         "nsubstitute.nuspec"
       ]
     },
@@ -5965,7 +5959,7 @@
       "Application >= 1.0.0",
       "Infrastructure >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
-      "NSubstitute >= 4.4.0",
+      "NSubstitute >= 5.0.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
@@ -6025,7 +6019,7 @@
           },
           "NSubstitute": {
             "target": "Package",
-            "version": "[4.4.0, )"
+            "version": "[5.0.0, )"
           },
           "NUnit": {
             "target": "Package",

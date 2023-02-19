@@ -27,7 +27,7 @@ public class LocationsControllerTests
     [Test]
     public async Task GetLocations_WithServiceProvidingLocations_Returns200()
     {
-        _locationService.GetLocations().ReturnsForAnyArgs(Task.FromResult(new List<Location>() { new Location() }));
+        _locationService.GetLocations().ReturnsForAnyArgs(Task.FromResult(new List<Location>() { new () }));
 
         IActionResult response = await _locationsController.GetLocations();
         
@@ -60,7 +60,7 @@ public class LocationsControllerTests
     public async Task GetLocationsInRadius_WithServiceProvidingLocations_Returns200()
     {
         _locationService.GetLocationsInRadius(Arg.Any<double>(),Arg.Any<double>(),Arg.Any<int>())
-                        .ReturnsForAnyArgs(Task.FromResult(new List<Location>() { new Location() }));
+                        .ReturnsForAnyArgs(Task.FromResult(new List<Location>() { new () }));
 
         IActionResult response = await _locationsController.GetLocationsInRadius(90,180,1);
         

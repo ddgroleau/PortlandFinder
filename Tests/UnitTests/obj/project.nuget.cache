@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lUOzWzBkSXQBFHL/z96rfIb4DXW/z03XShV9FBbumS8Vos8S3QT4kdon16byX+QNq6WK/0h3PhcK8GANnSlOJQ==",
+  "dgSpecHash": "HoMK6qn9s8k5JOUYlLiD7uvWEe1uodroM/01s3GiQ91q63JHFdOZa8LyE4WUMxJ9tZ1kYwY3Jd+MWJwKRm3ziQ==",
   "success": true,
   "projectFilePath": "/home/dan/repos/PortlandFinder/Tests/UnitTests/UnitTests.csproj",
   "expectedPackageFiles": [
@@ -40,7 +40,7 @@
     "/home/dan/.nuget/packages/npgsql/7.0.1/npgsql.7.0.1.nupkg.sha512",
     "/home/dan/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.1/npgsql.entityframeworkcore.postgresql.7.0.1.nupkg.sha512",
     "/home/dan/.nuget/packages/npgsql.entityframeworkcore.postgresql.design/1.1.0/npgsql.entityframeworkcore.postgresql.design.1.1.0.nupkg.sha512",
-    "/home/dan/.nuget/packages/nsubstitute/4.4.0/nsubstitute.4.4.0.nupkg.sha512",
+    "/home/dan/.nuget/packages/nsubstitute/5.0.0/nsubstitute.5.0.0.nupkg.sha512",
     "/home/dan/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
     "/home/dan/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
     "/home/dan/.nuget/packages/nunit.analyzers/3.3.0/nunit.analyzers.3.3.0.nupkg.sha512",

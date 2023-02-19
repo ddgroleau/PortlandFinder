@@ -72,7 +72,7 @@ namespace Application.Services
                 longitude == 0 ||
                 Math.Abs(latitude) > 90 ||
                 Math.Abs(longitude) > 180
-            ) throw new ArgumentException("Invalidate coordinates.");
+            ) throw new ArgumentException("Invalid coordinates.");
         }
 
         private void ValidateRadius(int radius)

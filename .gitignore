@@ -6,3 +6,4 @@ run-docker.sh
 .vs
 .idea
 .github
+coverage

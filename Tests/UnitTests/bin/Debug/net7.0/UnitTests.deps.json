@@ -12,7 +12,7 @@
           "Application": "1.0.0",
           "Infrastructure": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.3.2",
-          "NSubstitute": "4.4.0",
+          "NSubstitute": "5.0.0",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.3.0",
           "NUnit3TestAdapter": "4.2.1",
@@ -548,14 +548,14 @@
           }
         }
       },
-      "NSubstitute/4.4.0": {
+      "NSubstitute/5.0.0": {
         "dependencies": {
           "Castle.Core": "5.0.0"
         },
         "runtime": {
           "lib/net6.0/NSubstitute.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.4.0.0"
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
           }
         }
       },
@@ -1366,12 +1366,12 @@
       "path": "npgsql.entityframeworkcore.postgresql.design/1.1.0",
       "hashPath": "npgsql.entityframeworkcore.postgresql.design.1.1.0.nupkg.sha512"
     },
-    "NSubstitute/4.4.0": {
+    "NSubstitute/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aArWp0M9n/3IZHCNSb3QIHy0tkPLSft8l3KFeUa54GbznKiv0FE687TBfPhZbXf0/zGtc4EsHLEUqEEf0Bf4HQ==",
-      "path": "nsubstitute/4.4.0",
-      "hashPath": "nsubstitute.4.4.0.nupkg.sha512"
+      "sha512": "sha512-CWGy4oXvcJcZzL7m5Rr/eMSejFXMDq1RRMlsbL6eltS3AuN/d8GH3ZzUcuStQcCSlcx+hpsgTxdnb3lhozWG6w==",
+      "path": "nsubstitute/5.0.0",
+      "hashPath": "nsubstitute.5.0.0.nupkg.sha512"
     },
     "NuGet.Frameworks/5.11.0": {
       "type": "package",
