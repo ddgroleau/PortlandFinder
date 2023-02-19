@@ -13,26 +13,24 @@ namespace Application.Services
     public class LocationService : ILocationService
     {
         private readonly ILocationRepository _locationRepository;
-        private readonly ILogger<LocationService> _logger;
 
-        public LocationService(ILocationRepository locationRepository, ILogger<LocationService> logger)
+        public LocationService(ILocationRepository locationRepository)
         {
             _locationRepository = locationRepository;
-            _logger = logger;
         }
 
-        public async Task<List<Location>> GetLocations()
-        {
-            return await _locationRepository.GetLocations();
-        }
+        public async Task<List<Location>> GetLocations() => await _locationRepository.GetLocations();
 
         public async Task<List<Location>> GetLocationsInRadius(double originLat, double originLon, int radius)
         {
-            try
-            {
+                ValidateRadius(radius);
+                ValidateCoordinates(originLat, originLon);
+
                 const string DIRECTIONS_BASE_URI = "https://www.google.com/maps/dir";
 
                 List<Location> allLocations = await _locationRepository.GetLocations();
+
+                if (!allLocations.Any()) return allLocations;
 
                 foreach (Location location in allLocations)
                 {
@@ -42,16 +40,13 @@ namespace Application.Services
                 }
 
                 return allLocations.Where(location => location.Distance <= radius).OrderBy(location => location.Distance).ToList();
-            }
-            catch (Exception e)
-            {
-                _logger.LogError(e, "Error thrown while geolocating coordinates.");
-                return new List<Location>();
-            }
         }
 
         private double GetDistanceBetweenCoordinates(double originLat, double originLon, double destLat, double destLon)
         {
+            ValidateCoordinates(originLat, originLon);
+            ValidateCoordinates(destLat, destLon);
+            
             // Haversine Formula Implementation
             const double EARTH_RADIUS_MILES = 3958.8;
 
@@ -68,6 +63,21 @@ namespace Application.Services
             double angularDistanceRadians = 2 * Math.Asin(Math.Sqrt(squaredChordLength));
             
             return EARTH_RADIUS_MILES * angularDistanceRadians;
+        }
+
+        private void ValidateCoordinates(double latitude, double longitude)
+        {
+            if (
+                latitude == 0 ||
+                longitude == 0 ||
+                Math.Abs(latitude) > 90 ||
+                Math.Abs(longitude) > 180
+            ) throw new ArgumentException("Invalidate coordinates.");
+        }
+
+        private void ValidateRadius(int radius)
+        {
+            if (radius <= 0 || radius > 100) throw new ArgumentException("Invalid radius.");
         }
     }
 }

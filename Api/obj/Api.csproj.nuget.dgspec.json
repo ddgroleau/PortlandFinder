@@ -1,44 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Api\\Api.csproj": {}
+    "/home/dan/repos/PortlandFinder/Api/Api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Api\\Api.csproj": {
+    "/home/dan/repos/PortlandFinder/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Api\\Api.csproj",
+        "projectUniqueName": "/home/dan/repos/PortlandFinder/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\ddgro\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Api\\obj\\",
+        "projectPath": "/home/dan/repos/PortlandFinder/Api/Api.csproj",
+        "packagesPath": "/home/dan/.nuget/packages/",
+        "outputPath": "/home/dan/repos/PortlandFinder/Api/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ddgro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/dan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Application\\Application.csproj": {
-                "projectPath": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Application\\Application.csproj"
+              "/home/dan/repos/PortlandFinder/Core/Application/Application.csproj": {
+                "projectPath": "/home/dan/repos/PortlandFinder/Core/Application/Application.csproj"
               },
-              "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Infrastructure\\Infrastructure.csproj"
+              "/home/dan/repos/PortlandFinder/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/dan/repos/PortlandFinder/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -99,45 +91,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Application\\Application.csproj": {
+    "/home/dan/repos/PortlandFinder/Core/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Application\\Application.csproj",
+        "projectUniqueName": "/home/dan/repos/PortlandFinder/Core/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\ddgro\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Application\\obj\\",
+        "projectPath": "/home/dan/repos/PortlandFinder/Core/Application/Application.csproj",
+        "packagesPath": "/home/dan/.nuget/packages/",
+        "outputPath": "/home/dan/repos/PortlandFinder/Core/Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ddgro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/dan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Domain\\Domain.csproj"
+              "/home/dan/repos/PortlandFinder/Core/Domain/Domain.csproj": {
+                "projectPath": "/home/dan/repos/PortlandFinder/Core/Domain/Domain.csproj"
               },
-              "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Infrastructure\\Infrastructure.csproj"
+              "/home/dan/repos/PortlandFinder/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/dan/repos/PortlandFinder/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -167,34 +151,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Domain\\Domain.csproj": {
+    "/home/dan/repos/PortlandFinder/Core/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Domain\\Domain.csproj",
+        "projectUniqueName": "/home/dan/repos/PortlandFinder/Core/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\ddgro\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Domain\\obj\\",
+        "projectPath": "/home/dan/repos/PortlandFinder/Core/Domain/Domain.csproj",
+        "packagesPath": "/home/dan/.nuget/packages/",
+        "outputPath": "/home/dan/repos/PortlandFinder/Core/Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ddgro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/dan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -228,42 +204,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Infrastructure\\Infrastructure.csproj": {
+    "/home/dan/repos/PortlandFinder/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "/home/dan/repos/PortlandFinder/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ddgro\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Infrastructure\\obj\\",
+        "projectPath": "/home/dan/repos/PortlandFinder/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/dan/.nuget/packages/",
+        "outputPath": "/home/dan/repos/PortlandFinder/Infrastructure/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ddgro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/dan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\ddgro\\source\\repos\\PortlandFinder\\Core\\Domain\\Domain.csproj"
+              "/home/dan/repos/PortlandFinder/Core/Domain/Domain.csproj": {
+                "projectPath": "/home/dan/repos/PortlandFinder/Core/Domain/Domain.csproj"
               }
             }
           }
@@ -317,7 +285,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }

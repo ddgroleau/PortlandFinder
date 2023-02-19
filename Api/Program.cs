@@ -47,3 +47,6 @@ app.UseCors(origins);
 app.MapControllers();
 
 app.Run();
+
+// Expose partial class for Integration and End-to-End Tests
+public partial class Program { }

@@ -12,15 +12,13 @@ namespace UnitTests.Core.Application.Services
     {
         private ILocationRepository _locationRepository;
         private ILocationService _locationService;
-        private ILogger<LocationService> _logger;
         private List<Location> _mockLocations;
 
         [OneTimeSetUp] 
         public void BeforeAll() 
         {
             _locationRepository = Substitute.For<ILocationRepository>();
-            _logger = Substitute.For<ILogger<LocationService>>();
-            _locationService = new LocationService(_locationRepository, _logger);
+            _locationService = new LocationService(_locationRepository);
             _mockLocations = new List<Location>
             {
                 new Location { Id = 1, City = "Portland", Latitude = 43.6831, Longitude = -70.2899, Name = "Back Bay Superette", State = "ME", StreetAddress = "1037 Forest Ave",  ZipCode = "04103" },
@@ -57,7 +55,6 @@ namespace UnitTests.Core.Application.Services
         }
 
 
-        [TestCase(0,0)]
         [TestCase(1,2)]
         [TestCase(3,4)]
         public async Task GetLocationsInRadius_WithValidCoordinatesAndRadius_ReturnsCorrectNumberOfLocationsInRadius(int radius, int expectedCount)
@@ -74,24 +71,20 @@ namespace UnitTests.Core.Application.Services
         [TestCase(91,180,10)]
         [TestCase(-90,192,3)]
         [TestCase(43.6591, -70.2568, -3)]
-        public async Task GetLocationsInRadius_WithInvalidCoordinatesAndRadius_ReturnsEmptyArray(double lat, double lon, int radius) 
+        public async Task GetLocationsInRadius_WithInvalidCoordinatesAndRadius_ThrowsException(double lat, double lon, int radius) 
         {
-            List<Location> actual = await _locationService.GetLocationsInRadius(lat, lon, radius);
-
-            Assert.IsFalse(actual.Any());
+            Assert.ThrowsAsync<ArgumentException>(async () => await _locationService.GetLocationsInRadius(lat, lon, radius));
         }
 
         [Test]
-        public async Task GetLocationsInRadius_WithRepositoryError_ReturnsEmptyArray()
+        public async Task GetLocationsInRadius_WithRepositoryError_ThrowsException()
         {
             _locationRepository.GetLocations().ThrowsAsync(new Exception("Mock Exceptions"));
             double lat = 43.6591;
             double lon = -70.2568;
             int radius = 10;
 
-            List<Location> actual = await _locationService.GetLocationsInRadius(lat, lon, radius);
-
-            Assert.IsFalse(actual.Any());
+            Assert.ThrowsAsync<Exception>(async () => await _locationService.GetLocationsInRadius(lat, lon, radius));
         }
     }
 }

@@ -14,6 +14,5 @@ namespace Infrastructure.Repositories
         }
 
         public async Task<List<Location>> GetLocations() => await _context.Locations.ToListAsync();
-
     }
 }

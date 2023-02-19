@@ -2,3 +2,7 @@
 run.sh
 run-docker.sh
 .env
+*.user
+.vs
+.idea
+.github

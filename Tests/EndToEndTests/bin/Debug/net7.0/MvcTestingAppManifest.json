@@ -1,0 +1,6 @@
+{
+  "Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/dan\/repos\/PortlandFinder\/Api",
+  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/dan\/repos\/PortlandFinder\/Core\/Application",
+  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/dan\/repos\/PortlandFinder\/Core\/Domain",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/dan\/repos\/PortlandFinder\/Infrastructure"
+}
