@@ -22,22 +22,22 @@ jobs:
       - name: Test
         run: dotnet test --no-build --verbosity normal --collect:"XPlat Code Coverage" --logger trx --results-directory coverage
     
-    coverage:
-      runs-on: ubuntu-latest
-      needs: test
-      steps: 
-        - name: Code Coverage Summary Report
-          uses: irongut/CodeCoverageSummary@v1.3.0
-          with:
-            filename: coverage/**/coverage.cobertura.xml
-            badge: true
-            fail_below_min: true
-            format: markdown
-            hide_branch_rate: false
-            hide_complexity: true
-            indicators: true
-            output: both
-            thresholds: '60 80'
+  coverage:
+    runs-on: ubuntu-latest
+    needs: test
+    steps: 
+      - name: Code Coverage Summary Report
+        uses: irongut/CodeCoverageSummary@v1.3.0
+        with:
+          filename: coverage/**/coverage.cobertura.xml
+          badge: true
+          fail_below_min: true
+          format: markdown
+          hide_branch_rate: false
+          hide_complexity: true
+          indicators: true
+          output: both
+          thresholds: '60 80'
 
   build:
     runs-on: ubuntu-latest
